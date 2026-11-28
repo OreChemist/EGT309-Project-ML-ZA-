@@ -1,0 +1,19 @@
+# ---- Data tools for the EDA notebook ----
+pandas
+numpy
+matplotlib
+seaborn
+# Statistical tests used in the EDA (chi-square, Mann-Whitney)
+scipy
+# Machine learning tools (mutual information in the EDA, and the models later)
+scikit-learn
+
+# ---- Jupyter notebook environment ----
+# JupyterLab 4.1 or newer (needed by jupyterlab-lsp)
+jupyterlab>=4.1,<5
+
+# ---- Smarter autocomplete as you type (like Colab) ----
+# Adds smarter autocomplete, hover help and error underlines to JupyterLab
+jupyterlab-lsp
+# The Python "brain" that jupyterlab-lsp asks for suggestions
+python-lsp-server[all]

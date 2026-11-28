@@ -1,0 +1,8 @@
+{
+  "@jupyterlab/completer-extension:manager": {
+    "autoCompletion": true
+  },
+  "@jupyter-lsp/jupyterlab-lsp:completion": {
+    "continuousHinting": true
+  }
+}
